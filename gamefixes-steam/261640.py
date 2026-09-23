@@ -9,8 +9,5 @@ def main() -> None:
     util.replace_command('Launcher.exe', 'BorderlandsPreSequel.exe')
     util.append_argument('-NoSplash')
 
-    # Disables esync prevents crashes.
-    util.disable_esync()
-
     # Enables NVIDIA PhysX in Borderlands: The Pre-Sequel.
     util.protontricks('physx')

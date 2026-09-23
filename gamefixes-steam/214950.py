@@ -9,5 +9,3 @@ def main() -> None:
     """
     util.protontricks('d3dcompiler_42')
     util.protontricks('directplay')
-    util.disable_esync()
-    util.disable_fsync()
