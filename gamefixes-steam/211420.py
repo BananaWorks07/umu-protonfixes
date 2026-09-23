@@ -5,4 +5,4 @@ from protonfixes import util
 
 def main() -> None:
     # In case if someone wishes to use DSfix
-    util.protontricks('dinput8')
+    # util.protontricks('dinput8')
