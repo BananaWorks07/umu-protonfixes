@@ -1,4 +1,5 @@
 """Game fix for Space Engineers"""
+
 import os
 
 from protonfixes import util

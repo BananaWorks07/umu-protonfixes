@@ -1,4 +1,5 @@
 """Call Winetricks GUI"""
+
 import os
 
 from protonfixes import util

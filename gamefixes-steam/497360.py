@@ -9,7 +9,7 @@ from protonfixes import util
 
 def main() -> None:
     # use wined3d for now, d7vk flickers with this game
-    #util.set_environment('PROTON_USE_D7VK', '1')
+    # util.set_environment('PROTON_USE_D7VK', '1')
 
     # Create a symlink in dosdevices
     util.create_dos_device()

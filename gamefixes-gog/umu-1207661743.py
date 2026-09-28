@@ -20,6 +20,7 @@ EXECUTABLE_NAMES: dict[str, str] = {
     'umu-1207661813': 'Sword',
 }
 
+
 def main_with_id(game_id: str) -> None:
     exe_name = EXECUTABLE_NAMES.get(game_id)
     if exe_name is None:

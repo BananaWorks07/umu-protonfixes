@@ -1,6 +1,7 @@
 """Application fix Artificial Academy 2
 Launcher game settings: Disable wine3d, enable win10fix
 """
+
 import os
 
 from protonfixes import util

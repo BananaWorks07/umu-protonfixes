@@ -1,4 +1,5 @@
 """Game fix for Pes 2021"""
+
 import os
 
 from protonfixes import util

@@ -1,4 +1,5 @@
 """Game fix for Pantheon: Rise of the Fallen"""
+
 import os
 
 from protonfixes import util

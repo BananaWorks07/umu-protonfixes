@@ -1,4 +1,5 @@
 r"""Fix for S\&box Editor"""
+
 import os
 
 from protonfixes import util

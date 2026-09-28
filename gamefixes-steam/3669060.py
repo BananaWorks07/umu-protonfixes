@@ -1,4 +1,5 @@
 """Game fix for Blade & Soul NEO"""
+
 import os
 
 from protonfixes import util

@@ -87,7 +87,9 @@ __version_file = 'upscaler_files'
 
 def __get_dlss_dlls(version: str = 'default') -> dict:
     return {
-        'drive_c/windows/system32/umu/nvngx_dlss.dll': __get_dll_manifest('dlss', version),
+        'drive_c/windows/system32/umu/nvngx_dlss.dll': __get_dll_manifest(
+            'dlss', version
+        ),
         'drive_c/windows/system32/umu/nvngx_dlssd.dll': __get_dll_manifest(
             'dlss_d', version
         ),
@@ -133,6 +135,7 @@ def __get_ffx4_dlls(version: str = 'default') -> dict:
             'fsr_40_up_dx12', version
         ),
     }
+
 
 def __get_fsr4_dlls(version: str = 'default') -> dict:
     return {
@@ -192,7 +195,11 @@ def __set_tracked_items(compat_dir: str, section: str, checksums: dict) -> None:
 
 
 def __check_upscaler_file(
-    prefix_dir: str, dst: str, remote_item: dict, tracked_item: dict, ignore_version: bool
+    prefix_dir: str,
+    dst: str,
+    remote_item: dict,
+    tracked_item: dict,
+    ignore_version: bool,
 ) -> bool:
     target = os.path.join(prefix_dir, dst)
 
@@ -235,7 +242,11 @@ def __check_upscaler_file(
 
 
 def __check_upscaler_files(
-    compat_dir: str, prefix_dir: str, remote_items: dict, section: str, ignore_version: bool
+    compat_dir: str,
+    prefix_dir: str,
+    remote_items: dict,
+    section: str,
+    ignore_version: bool,
 ) -> bool:
     try:
         tracked_items = __get_tracked_items(compat_dir, section)
@@ -247,7 +258,9 @@ def __check_upscaler_files(
         return False
 
     valid_files = tuple(
-        __check_upscaler_file(prefix_dir, dst, remote_items[dst], tracked_items[dst], ignore_version)
+        __check_upscaler_file(
+            prefix_dir, dst, remote_items[dst], tracked_items[dst], ignore_version
+        )
         for dst in remote_items.keys()
     )
 

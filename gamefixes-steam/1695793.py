@@ -2,6 +2,7 @@
 Standalone and Sapien seem to work just fine without d3dcompiler_47 and msxml3, although might be required at some deeper level. I just playtested it.
 - Oro, @orowith2os
 """
+
 import os
 
 from protonfixes import util

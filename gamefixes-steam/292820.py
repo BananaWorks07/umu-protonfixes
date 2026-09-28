@@ -1,7 +1,7 @@
 """Game fix for Pajama Sam 4: Life is Rough When you Lose your Stuff!"""
 
-#Copied over from Root Core's fix for Putt-Putt: Pep's Birthday Surprise (294700) (https://github.com/Root-Core)
-#https://github.com/Open-Wine-Components/umu-protonfixes/blob/master/gamefixes-steam/294700.py
+# Copied over from Root Core's fix for Putt-Putt: Pep's Birthday Surprise (294700) (https://github.com/Root-Core)
+# https://github.com/Open-Wine-Components/umu-protonfixes/blob/master/gamefixes-steam/294700.py
 
 from protonfixes import util
 

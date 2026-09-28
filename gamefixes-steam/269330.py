@@ -1,4 +1,5 @@
 """Game fix for Chronology"""
+
 import os
 
 from protonfixes import util

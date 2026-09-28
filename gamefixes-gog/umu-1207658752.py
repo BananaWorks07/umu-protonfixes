@@ -2,6 +2,7 @@
 
 from protonfixes import util
 
+
 def main() -> None:
     # Fix game not launching
     # Requires setting the Windows version to Windows 95 or 98. Winetricks doesn't support setting this on a 64-bit prefix but this can be worked around by editing the registry directly

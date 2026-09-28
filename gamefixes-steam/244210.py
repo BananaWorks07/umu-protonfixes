@@ -1,4 +1,5 @@
 """Game fix for Assetto Corsa"""
+
 import os
 
 from protonfixes import util

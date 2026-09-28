@@ -88,4 +88,6 @@ def main() -> None:
         config_path.parent.mkdir(parents=True, exist_ok=True)
         config_path.write_text(DEFAULT_CONFIG, encoding='utf-8')
     except OSError as e:
-        log.warn(f"Failed to create Trails in the Sky the 3rd config at '{config_path}': {e}")
+        log.warn(
+            f"Failed to create Trails in the Sky the 3rd config at '{config_path}': {e}"
+        )

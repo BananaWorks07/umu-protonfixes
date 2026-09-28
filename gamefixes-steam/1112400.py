@@ -1,4 +1,5 @@
 """Game fix for Project Torque"""
+
 import os
 
 from protonfixes import util

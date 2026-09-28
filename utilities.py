@@ -17,7 +17,7 @@ def check_verb_requirements() -> None:
     """Check if we are installing winetricks verbs and apply env configuration"""
     for idx, part in enumerate(sys.argv):
         if part.endswith('winetricks'):
-            verbs = sys.argv[idx+1:]
+            verbs = sys.argv[idx + 1 :]
             break
     else:
         verbs = []

@@ -1,4 +1,5 @@
 """Zeit²"""
+
 import os
 
 from protonfixes import util
